@@ -1,0 +1,40 @@
+
+body {
+    background: linear-gradient(#001f3f, #0074D9);
+    color: #fff;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: #001f3f;
+    padding: 20px;
+}
+.logo {
+    width: 100px;
+}
+nav a {
+    color: #7FDBFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+}
+.carousel img {
+    height: 200px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    background-color: #001f3f;
+    padding: 10px;
+    font-size: 0.9em;
+}
